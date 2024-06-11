@@ -16,21 +16,21 @@ const Carousel = () => {
         {/* Desktop */}
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <div className="row d-flex justify-content-center align-items-center">
+            <div className="d-flex justify-content-evenly align-items-center">
               <Returnbook />
               <Returnbook />
               <Returnbook />
             </div>
           </div>
           <div className="carousel-item">
-            <div className="row d-flex justify-content-center align-items-center">
+            <div className="d-flex justify-content-evenly align-items-center">
               <Returnbook />
               <Returnbook />
               <Returnbook />
             </div>
           </div>
           <div className="carousel-item">
-            <div className="row d-flex justify-content-center align-items-center">
+            <div className="d-flex justify-content-evenly align-items-center">
               <Returnbook />
               <Returnbook />
               <Returnbook />
@@ -65,7 +65,7 @@ const Carousel = () => {
 
       {/* Mobile */}
       <div className="d-lg-none mt-3">
-        <div className="row d-flex justify-content-center align-items-center">
+        <div className="d-flex justify-content-center align-items-center">
           <Returnbook />
         </div>
       </div>
