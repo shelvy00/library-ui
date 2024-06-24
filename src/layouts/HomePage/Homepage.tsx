@@ -1,8 +1,8 @@
 import React from "react";
-import Carousel from "./componenets/Carousel";
-import ExploreTopBooks from "./componenets/ExploreTopBooks";
-import Heros from "./componenets/Heros";
-import LibraryServices from "./componenets/LibraryServices";
+import Carousel from "./components/Carousel";
+import ExploreTopBooks from "./components/ExploreTopBooks";
+import Heros from "./components/Heros";
+import LibraryServices from "./components/LibraryServices";
 
 const Homepage = () => {
   return (
